@@ -1,0 +1,127 @@
+{
+    "AppName": "Sistema de Asistencia Duoc UC",
+    "AuthorText": "Ñamün tüfachi:",
+    "Author": "Cristián Gómez Vega",
+    "Language": "Ñiñ",
+    "Language.English": "Inche Ñi Mapu",
+    "Language.Spanish": "Español",
+    "Language.Mapudungun": "Mapudungun",
+    
+    "Start.StartNewExperience": "Ñamün tüfachi zuguñün",
+
+    "Login.Title.Login": "Ñamün",
+    "Login.Label.Email": "Mail",
+    "Login.Placeholder.Email": "Ñamün füta maila",
+    "Login.Label.Password": "Ñi ñamün",
+    "Login.Placeholder.Password": "Ñamün tüfachi ñi ñamün",
+    "Login.Button.Login": "Ñamün",
+    "Login.Button.Signin": "Ñamünpüleal",
+    "Login.Button.ForgotPassword": "Ñi ñamün pu zuguñün",
+    "Login.Button.Map": "Ñi ruta a DuocUC",
+    "Login.Button.registrarme": "Rakizuam",
+    "Login.Button.DarkMode": "Pewma",
+    "Login.Button.Theme": "Ñi Pewma",
+
+    "HomePage.Button.CodigoQR": "QR",
+    "HomePage.Button.Scan": "Ñamün",
+    "HomePage.Button.MiClase": "Ñi Klasë",
+    "HomePage.Button.Forum": "Fórum",
+    "HomePage.Button.MisDatos": "Ñi Datos",
+
+    "ThemePage.Label.ColorTheme": "Ñi pewma:",
+    "ThemePage.Color.Light": "Pewma",
+    "ThemePage.Color.Dark": "Pewma üñüm",
+    "ThemePage.Color.Green": "Ñuñün",
+    "ThemePage.Color.Red": "Pewma ñamün",
+    "ThemePage.Color.Facebook": "Facebook",
+    "ThemePage.Color.Instagram": "Instagram",
+    "ThemePage.Color.Duoc": "DUOC",
+    
+    "ThemePage.Button.Primary": "Botón Pewma",
+    "ThemePage.Button.Secondary": "Botón Ñiñ",
+    "ThemePage.Button.Tertiary": "Botón Ñiñiñ",
+    "ThemePage.Button.Success": "Botón Fey",
+    "ThemePage.Button.Warning": "Botón Pelüngün",
+    "ThemePage.Button.Danger": "Botón Fütra",
+    "ThemePage.Button.Light": "Botón Pewma",
+    "ThemePage.Button.Dark": "Botón Ñamün",
+    "ThemePage.Button.Home": "Ñi Pewma",
+    "ThemePage.Button.Logout": "Ñamünpüleal",
+    
+    "ThemePage.Card.Title": "Ñi Karta",
+    "ThemePage.Card.Subtitle": "Ñi Ñamün Karta",
+    "ThemePage.Card.Content": "Ñi ükümün ñi karta. Kintuwün füta ñamün ñi karta mew.",
+    
+    "ThemePage.List.Title": "Ñamün",
+    "ThemePage.List.Item1": "Ñamün 1",
+    "ThemePage.List.Item2": "Ñamün 2",
+    "ThemePage.List.Item3": "Ñamün 3",
+    
+    "ThemePage.Calendar.Title": "Ñi Kalendar",
+
+    "ThemePage.Form.Title": "Ñamün ñi data",
+    "ThemePage.Form.NameLabel": "Ñi Ñamün",
+    "ThemePage.Form.NamePlaceholder": "Ñamün tüfachi ñi ñamün",
+    "ThemePage.Form.DescriptionLabel": "Ñi Ükümün",
+    "ThemePage.Form.DescriptionPlaceholder": "Ñamün füta ükümün...",
+    "ThemePage.Form.ToggleLabel": "Ñamün ñi pu zuguñün",
+    "ThemePage.Form.CheckboxLabel": "Ñamün ñi ñamün",
+
+    "PasswordConfirmation.correctData": "¡Ñi fentru! <br> Ñi rutun <br> ñi {{ password }}",
+    "PasswordConfirmation.incorrectData": "¡Ñi traümün! <br> Ñi e-mail ñi wüfey <br> ñi ñiñeñüln",
+
+    "Registro.Title": "Rakizuam",
+    "Registro.Label.Usuario": "Ülmen",
+    "Registro.Label.Nombre": "Ñuke Ülmen",
+    "Registro.Label.Apellido": "Ülmen Wente",
+    "Registro.Label.Correo": "Elnagkvn",
+    "Registro.Label.Direccion": "Kakelu",
+    "Registro.Label.PreguntaSecreta": "Rakin Wüño",
+    "Registro.Label.RespuestaSecreta": "Wüño Pingkefe",
+    "Registro.Label.NivelEducacional": "Kimvn Wünen",
+    "Registro.Label.FechaNacimiento": "Küyen We Tripa",
+    "Registro.Label.Contraseña": "Ngiwü Küdaw",
+    "Registro.Label.RepetirContraseña": "Repitüy Küdaw",
+    "Registro.Button.CrearCuenta": "Kintukey Küdaw",
+    "Attendance.ScanQRCode": "QR ñi kodu gelaynüm ñi pvle",
+    "Welcome.User": "¡Mari mari, {{ nombre }} {{ apellido }}!",
+    "Scan.QR": "QR ñi gelaynün",
+    "Stop.Scan": "Gelaynün ñi llantun",
+    "Logout.Button": "Tüfachi Tüfachiñ",
+    "Posts.Management": "Ñi dungu gelaynün",
+    "Post.Placeholder": "Ñi dunguñ üñümün rüpü",
+    "Post.DescriptionPlaceholder": "Ñi dunguñ ñi rüpü",
+    "Button.Clear": "Ñi küme",
+    "Button.Update": "Ñi küme ñi rüpü",
+    "Button.Save": "Ñi ñi rüpü",
+    "Posts.Recent": "Ñi dungu gelaynün",
+    "Post.Details": "(Post #{{ id }}) {{ author }}",
+    "Registro.Label.MisDatosPersonales": "Ñi datos",
+    "Post.Label.Publicacion": "Pu lonko #{{ id }}",
+    "Post.Label": "Küpal",
+    "Post.Desc": "Dungu am",
+    "Actualizar": "Weitun",
+    "PasswordRecovery.title": "Ñi Küyün Ñi Küzaw",
+    "PasswordRecovery.step1": "Ñi 1: Ingna ñi e-mail",
+    "Email.label": "Ñi E-mail",
+    "PasswordRecovery.recoverButton": "Weitun Küpal",
+    "Login.iniciarSesion": "Ñi Püñeñel",
+    "Password.title": "Ñi Küyün Ñi Küzaw",
+    "PasswordRecovery.step2": "Ñi 2: Ñi we tripan ñi kom pu zugu",
+    "Login.Sesion": "Ñi Püñeñel",
+    "SecurityQuestion.label": "We Tripan Kom",
+    "Password.recoverButton": "Weitun Küpal",
+    "Email.placeholder":"Ej:aaa@duocuc.cl",
+    "SecurityQuestion.placeholder":"Elefañte",
+    "Login.Sesion.Button": "Ñi Püñeñel"
+
+
+
+
+
+
+
+
+
+
+}

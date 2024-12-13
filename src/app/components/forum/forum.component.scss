@@ -1,0 +1,146 @@
+// Estilos generales
+.tituloPrincipal {
+  font-size: 1em;
+  color: darkblue;
+  font-weight: bold;
+  text-shadow: darkgray;
+}
+
+.publicacionSeleccionada {
+  font-size: small !important;
+  color: darkgreen !important;
+  font-weight: bolder;
+}
+
+// Estilos para los encabezados
+h6 {
+  color: #b3b3b3; // Texto gris claro para el autor
+  font-weight: 500;
+}
+
+h4 {
+  color: var(--ion-color-tertiary);
+  font-weight: bold;
+}
+
+// Estilos para las tarjetas (fondos oscuros)
+ion-card {
+  background-color: #1e1e1e; // Fondo oscuro para las tarjetas
+  color: #ffffff; // Texto blanco para contraste
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  padding: 15px;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  }
+}
+
+ion-card-header h6,
+ion-card-header h4 {
+  color: #c0c0c0; // Color para los encabezados dentro de las tarjetas
+}
+
+ion-card-content p {
+  color: #e0e0e0; // Texto más claro para el contenido de las tarjetas
+}
+
+// Estilos para los botones (Amarillo con animación)
+ion-button {
+  --background: #f7b731; // Fondo amarillo para los botones
+  --color: #000000; // Color de texto negro
+  --background-hover: #e09e2c; // Fondo amarillo oscuro al pasar el mouse
+  --border-radius: 8px;
+  margin: 0 5px;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+}
+
+// Estilos para los botones flotantes (edición y eliminación)
+ion-fab-button {
+  --background: #f7b731; // Fondo amarillo para los botones flotantes
+  --color: #000000; // Color de texto negro
+  --background-hover: #e09e2c; // Fondo amarillo oscuro al pasar el mouse
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+// Estilos para mejorar el formulario
+ion-input,
+ion-textarea {
+  --background: #1e1e1e;
+  --color: #ffffff;
+  --placeholder-color: #a0a0a0;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+ion-input::part(native),
+ion-textarea::part(native) {
+  color: #ffffff;
+}
+
+// Ajustes para los labels con animación
+ion-label {
+  color: #c0c0c0 !important; // Color para los labels
+  font-weight: normal; // Peso de la fuente ajustado
+  font-size: 0.9em; // Tamaño ajustado para los labels
+  transition: all 0.3s ease-in-out;
+  padding-bottom: 5px;
+}
+
+ion-item.ion-focused ion-label,
+ion-item.has-value ion-label {
+  color: #f7b731 !important; // Color amarillo cuando el label está enfocado o tiene valor
+  font-size: 0.85em;
+}
+
+// Espaciado adicional
+.margin-top-6 {
+  margin-top: 20px;
+}
+
+// Estilos para el modal personalizado (si se utiliza)
+.custom-modal {
+  --width: auto;
+  --height: auto;
+  --max-width: 90%;
+  --max-height: 90%;
+  border-radius: 12px;
+  background-color: #252525;
+}
+
+.modal-content {
+  width: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.block {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Estilo para lista sin bordes
+.sin-bordes {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+// Estilo para el título con margen superior
+.con-padding-top {
+  margin-top: 20px !important;
+}
